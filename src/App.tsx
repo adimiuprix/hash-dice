@@ -8,7 +8,7 @@ import { playClickSound, playLoseSound, playReelTick, playWinSound } from './uti
 
 export default function App() {
   const [gameState, setGameState] = useState<GameState>({
-    balance: 0.00398659,
+    balance: 1000000.00000000,
     currency: 'USDT',
     amount: 0.000005,
     betDirection: 'low',
